@@ -1,3 +1,10 @@
 dataset/
 mediapipe_models/
 wlasl100_features/
+wlasl1000_features/
+wlasl1000_top100_features/
+training/runs/
+training/checkpoints/
+training/__pycache__/
+.vscode
+__pycache__/

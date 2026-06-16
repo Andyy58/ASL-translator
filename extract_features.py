@@ -29,9 +29,9 @@ def suppress_stderr():
 
 DATASET_ROOT = os.path.join(os.getcwd(), "dataset")
 VIDEO_DIR = os.path.join(DATASET_ROOT, "videos")
-JSON_PATH = os.path.join(DATASET_ROOT, "nslt_100.json")
+JSON_PATH = os.path.join(DATASET_ROOT, "nslt_1000.json")
 CLASS_LIST_PATH = os.path.join(DATASET_ROOT, "wlasl_class_list.txt")
-OUTPUT_DIR = "wlasl100_features"
+OUTPUT_DIR = "wlasl1000_features"
 MODEL_PATH = os.path.join(os.getcwd(), "mediapipe_models", "hand_landmarker.task")
 
 
